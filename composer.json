@@ -1,0 +1,28 @@
+{
+  "name": "andrebian/zf3-service-manager-trait",
+  "description": "A fast way to get the Zend Framework 3's service manager in controllers",
+  "license": "MIT",
+  "type": "library",
+  "authors": [
+    {
+      "name": "Andre Cardoso",
+      "email": "andrecardosodev@gmail.com",
+      "homepage": "https://andrebian.com"
+    }
+  ],
+  "keywords": [
+    "service manager",
+    "service locator",
+    "zf3"
+  ],
+  "autoload": {
+    "psr-4": {
+      "ServiceManagerTrait\\": "src/"
+    }
+  },
+  "require": {
+    "zendframework/zend-mvc": "^3.1",
+    "zendframework/zend-mvc-plugins": "^1.0",
+    "zendframework/zend-servicemanager-di": "^1.0"
+  }
+}
